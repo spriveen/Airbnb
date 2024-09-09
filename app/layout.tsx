@@ -38,7 +38,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${nunito.className} antialiased`}
       >
         <ClientOnly>
-          <Modal isOpen  />
+          <Modal actionLabel="Submit" title="Hello World" isOpen  />
           <Navbar />
         </ClientOnly>
         {children}
