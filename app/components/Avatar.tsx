@@ -1,7 +1,6 @@
-'u8se client'
+'use client'
 
 import Image from "next/image"
-
 const Avatar = () => {
   return (
     <Image 
